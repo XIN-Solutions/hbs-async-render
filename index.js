@@ -73,7 +73,6 @@ export async function hbsAsyncRender(hbs, templateName, model) {
 
         const replaceId = promisesVals[idx].id;
         output = output.replace(`@@${replaceId}@@`, resultString);
-        console.log("RESULT", replaceId, resultString);
 
         delete promises[replaceId];
         ++idx;
