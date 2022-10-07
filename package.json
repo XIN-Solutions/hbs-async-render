@@ -1,0 +1,21 @@
+{
+  "name": "hbs-async-render",
+  "version": "1.0.0",
+  "description": "Handlebars Asynchronous Helper Rendering",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "nanoid": "^4.0.0",
+    "handlebars": "^4.7.7"
+  },
+  "keywords": [
+    "handlebars",
+    "async",
+    "render",
+    "promises"
+  ],
+  "author": "Marnix Kok <marnix@xinsolutions.co.nz>",
+  "license": "ISC"
+}
